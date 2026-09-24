@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <style>
+    .box{fill:#f8fafc;stroke:#334155;stroke-width:2}.head{fill:#dbeafe;stroke:#334155;stroke-width:2}
+    .title{font:bold 20px Arial;fill:#0f172a}.text{font:16px monospace;fill:#1e293b}
+  </style>
+  <text x="450" y="35" text-anchor="middle" class="title">Singleton - Sindicato Central</text>
+  <rect x="45" y="75" width="500" height="390" class="box"/>
+  <rect x="45" y="75" width="500" height="55" class="head"/>
+  <text x="295" y="110" text-anchor="middle" class="title">SindicatoCentral</text>
+  <line x1="45" y1="130" x2="545" y2="130" stroke="#334155" stroke-width="2"/>
+  <text x="65" y="165" class="text">- instancia : SindicatoCentral</text>
+  <text x="65" y="195" class="text">- nomeSindicato : String</text>
+  <text x="65" y="225" class="text">- totalFiliados : int</text>
+  <line x1="45" y1="245" x2="545" y2="245" stroke="#334155" stroke-width="2"/>
+  <text x="65" y="280" class="text">- SindicatoCentral()</text>
+  <text x="65" y="310" class="text">+ getInstancia() : SindicatoCentral</text>
+  <text x="65" y="340" class="text">+ registrarFiliado() : void</text>
+  <text x="65" y="370" class="text">+ getNomeSindicato() : String</text>
+  <text x="65" y="400" class="text">+ setNomeSindicato(String) : void</text>
+  <text x="65" y="430" class="text">+ getTotalFiliados() : int</text>
+  <rect x="625" y="150" width="230" height="220" class="box"/>
+  <rect x="625" y="150" width="230" height="55" class="head"/>
+  <text x="740" y="185" text-anchor="middle" class="title">Filiado</text>
+  <line x1="625" y1="205" x2="855" y2="205" stroke="#334155" stroke-width="2"/>
+  <text x="645" y="240" class="text">- nome : String</text>
+  <text x="645" y="270" class="text">- categoria : String</text>
+  <line x1="625" y1="290" x2="855" y2="290" stroke="#334155" stroke-width="2"/>
+  <text x="645" y="325" class="text">+ Filiado(String,String)</text>
+  <text x="645" y="355" class="text">+ getSindicatoCentral()</text>
+  <line x1="625" y1="260" x2="545" y2="260" stroke="#334155" stroke-width="2"/>
+  <polygon points="545,260 557,254 557,266" fill="#334155"/>
+</svg>
